@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #14335d;
+}
+
+header{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    left: 60%;
+    padding: 10px;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    height: 30%;
+}
+
+.main-box2{
+    display: none;
+}
