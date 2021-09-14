@@ -3,14 +3,17 @@
 }
 body{
     background-color: #14335d;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-weight: bold;
 }
 
 header{
     position: relative;
-    display: inline-block;
     width: 40%;
     left: 60%;
     padding: 10px;
+    text-align: center;
 }
 
 .logo{
@@ -22,6 +25,162 @@ header{
     height: 30%;
 }
 
+.hora{
+    font-size: 4rem;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.box-right{
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precios{
+    margin-left: 8%;
+    margin-top: 40px;
+}
+
+.precios_formato{
+    display: block;
+    text-align: left;
+}
+
+.trailer{
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 70px;
+}
+.precios_formato{
+    margin-top: 22px;
+}
+
+.main-box{
+    position: absolute;
+    top: 0;
+    width: 60%;
+}
+
+.Salas{
+    margin-top: 15px;
+    border-bottom: 1px solid white;
+}
+
+.poster{
+   width: 100px;
+   height: 160px; 
+   position: relative;
+   display: inline-block;
+   top: 0;
+}
+
+.stcf{
+    position: absolute;
+    display: inline-block;
+    height: 160px;
+    width: 90%;
+}
+.n_sala, .n_pelicula{
+    position: absolute;
+    width: 70%;
+    top: 0;
+    font-weight: bold;
+    left: 4%;
+}
+.n_sala{
+    top: 0px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.n_pelicula{
+    top: 42px;
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.Clasificacion, .formato{
+    position: relative;
+    left: 75%;
+}
+.Clasificacion{
+    font-size: 1.5rem;
+}
+
+.formato{
+    top: 40px;
+    width: 70px;
+    height: 40px;
+}
+
+.horas{
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 1.4rem;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.div-horas{
+text-align: left;}
+
+span{
+    position: absolute;
+    right: 16px;
+}
+
+
+
 .main-box2{
     display: none;
+}
+
+@media only screen and (max-width: 750px){
+
+   body{
+       background-color: black;
+   } 
+
+   header{
+       position: relative;
+       display: block;
+       width: 100%;
+       left: 0;
+       height: 13vh;
+   }
+   .logo{
+       position: absolute;
+       width: 60%;
+       height: 100%;
+       margin-right:auto ;
+       top: 0;
+   }
+   .hora{
+    position: absolute;
+    margin-left: 0;   
+    font-size: 2.5rem;  
+    left: 70%;
+    top:0;
+    }
+
+    .box-right{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    
+    .precios_formato{
+        display: block;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+   .main-box{
+       position:relative;
+   }
 }
